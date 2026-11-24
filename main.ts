@@ -6,7 +6,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "feat: Friday 4:59pm deploy — tests green on my machine, I approved my own PR, and honestly, what could possibly go wrong in prod?";
+  "feat: Friday 4:59pm deploy — tests green on my machine, I approved my own PR, merging to main and logging off before prod notices";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
